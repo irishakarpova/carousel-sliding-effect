@@ -79,7 +79,10 @@ import { makeStyles } from '@material-ui/core/styles';
         extendedFab: {
             zIndex: 100,
             opacity: .8,
-            margin: theme.spacing(4),
+            margin: theme.spacing(6),
+            [theme.breakpoints.down('xs')]: {
+                margin: theme.spacing(4),
+            },
         },
         extendedIcon: {
             marginLeft: theme.spacing(2),
