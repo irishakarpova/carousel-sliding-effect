@@ -8,8 +8,12 @@
 # testing
 /coverage
 
+/src/images.js
+
 # production
 /build
+/.vscode
+
 
 # misc
 .DS_Store
