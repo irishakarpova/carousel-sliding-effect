@@ -23,8 +23,8 @@ export const BigImage: React.FC<Props> = ({handleClose, currentImg}) => {
             <div className={classes.rootOversize}>        
                 <img 
                     className={classes.oversizeImg}
-                    src={currentImg?.path} 
-                    alt={currentImg?.label}
+                    src={currentImg!.path} 
+                    alt={currentImg!.label}
                 />
             </div>
         </Paper>
