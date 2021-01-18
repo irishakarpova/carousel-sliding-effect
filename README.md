@@ -1,8 +1,9 @@
 # A Carousel component with a sliding effect
 
+```javaScript
+
 import SlideShow from 'slideshow'
 
-```javaScript
 const images = [{
   
     id: "10",
