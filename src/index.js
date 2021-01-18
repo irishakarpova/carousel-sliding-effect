@@ -7,7 +7,7 @@ import theme from './theme'
 import { images } from './images';
 
 ReactDOM.render(
-    <ThemeProvider  theme={theme}>
+    <ThemeProvider theme={theme}>
       <React.StrictMode>
           <App
               serverData={images}
