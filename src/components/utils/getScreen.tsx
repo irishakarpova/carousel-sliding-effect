@@ -5,7 +5,7 @@ function getWindowDimensions() {
   return width
 }
 
-export default function useWindowDimensions() {
+export default function useWindowDimensions(): number {
   const [windowSize, setWindowSize] = useState(getWindowDimensions());
 
   useEffect(() => {

@@ -12,3 +12,9 @@ export interface AppStateValue {
     imageShadow: boolean
     showNextPrev: boolean
   }
+  
+  export interface Image{
+    id: string
+    path: string
+    label: string
+}  

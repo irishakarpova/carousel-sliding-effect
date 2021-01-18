@@ -1,0 +1,13 @@
+export const getShadowContainer = (containerShadow: boolean): string  => {
+    let cShadow = (containerShadow === true) 
+        ? "0 10px 25px -20px rgba(0, 0, 0, 0.6)" 
+        : 'none'
+    return cShadow  
+}
+
+export const getShadowImage = (imageShadow: boolean): string => {
+    let imgShadow = (imageShadow === true) 
+        ? "0 0 15px rgba(50, 50, 73, 0.4)" 
+        : 'none'
+    return imgShadow  
+}
