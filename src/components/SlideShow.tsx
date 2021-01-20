@@ -4,6 +4,7 @@ import { useSprings } from 'react-spring'
 import { useStyles } from './style'
 import clamp from 'lodash-es/clamp'
 import Fab from '@material-ui/core/Fab';
+import Paper from '@material-ui/core/Paper';
 import AspectRatioIcon from '@material-ui/icons/AspectRatio';
 import useWindowDimensions from './utils/getScreen'
 import AnimatedPicture from './AnimatedPicture';
@@ -87,7 +88,6 @@ const SlideShow: React.FC<AppStateValue> = (props) =>  {
                     handleClose={handleClose}
                 />
             }
-            
             <div className={classes.app}>
                 <Fab 
                     className={classes.extendedFab} 

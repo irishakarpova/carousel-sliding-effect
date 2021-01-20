@@ -27,6 +27,7 @@ import { makeStyles } from '@material-ui/core/styles';
             overflow: 'hidden',
             overscrollBehaviorY: "contain",
             boxShadow: cShadow,
+            borderRadius: 5,
         },
         appExt: {
             position: "absolute",

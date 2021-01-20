@@ -1,6 +1,6 @@
 export const getShadowContainer = (containerShadow: boolean): string  => {
     let cShadow = (containerShadow === true) 
-        ? "0 10px 25px -20px rgba(0, 0, 0, 0.6)" 
+        ? "0 0 32px rgba(0, 0, 0, 0.2)" 
         : 'none'
     return cShadow  
 }
