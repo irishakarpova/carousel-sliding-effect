@@ -8,9 +8,9 @@ import { AppStateValue } from './components/appStateValue'
 
 const App = (props: AppStateValue) => {
   return (
-    <ThemeProvider theme={theme}>
+ 
       <SlideShow {...props}/>
-    </ThemeProvider>
+
   );
 }
 
