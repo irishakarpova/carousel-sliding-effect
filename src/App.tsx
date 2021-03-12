@@ -8,7 +8,6 @@ import { AppStateValue } from "./components/appStateValue";
 const App = (props: AppStateValue) => {
     return (
         <ThemeProvider theme={theme}>
-            <CssBaseline />
             <SlideShow {...props} />
         </ThemeProvider>
     );
