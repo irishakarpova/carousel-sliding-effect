@@ -42,6 +42,7 @@ export const useStyles = (
             overflow: "hidden"
         },
         appInt: {
+            touchAction: "none",
             position: "absolute",
             width: "100%",
             height: "100%",
