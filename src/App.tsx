@@ -5,10 +5,14 @@ import { ThemeProvider } from "@material-ui/core/styles";
 import theme from "./theme";
 import { AppStateValue } from "./components/appStateValue";
 
+
 const App = (props: AppStateValue) => {
     return (
         <ThemeProvider theme={theme}>
+           
             <SlideShow {...props} />
+            <div style={{ width: 500, height: 1900}}></div>
+
         </ThemeProvider>
     );
 };

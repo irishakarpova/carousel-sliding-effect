@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useRef, useState, useEffect } from "react";
 import { useDrag } from "react-use-gesture";
 import { useSprings } from "react-spring";
 import { useStyles } from "./style";
@@ -85,6 +85,12 @@ const SlideShow: React.FC<AppStateValue> = (props) => {
     const handleClose = () => {
         setIsOpenCurrentImg(!isOpenCurrentImg);
     };
+
+    useEffect(() => {
+        const body: HTMLBodyElement | null = document.querySelector('body');
+            body!.style.overflow = isOpenCurrentImg ? 'hidden' : 'auto';
+      }, [isOpenCurrentImg]);
+
 
     const data = getImages();
 
