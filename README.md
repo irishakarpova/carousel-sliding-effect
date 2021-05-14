@@ -5,7 +5,7 @@
 import SlideShow from 'slideshow'
 
 const images = [{
-  
+
     id: "10",
         label: 'Keel-billed toucan',
         path: 'https://upload.wikimedia.org/wikipedia/commons/f/f6/Keel-billed_Toucan_%2816201157519%29.jpg'
@@ -30,15 +30,13 @@ const [containerShadow, setContainerShadow] = React.useState(true);
 const [imageShadow, setImageShadow] = React.useState(true);
 const [showEdges, setShowEdges] = React.useState(true);
 
-<SlideShow            
+<SlideShow
     serverData={images}
     containerMaxWidth={size}
-    containerRatio={containerRatio} 
+    containerRatio={containerRatio}
     containerShadow={containerShadow}
     imageShadow={imageShadow}
-    showNextPrev={showEdges} 
+    showNextPrev={showEdges}
 />
 
 ```
-  
-

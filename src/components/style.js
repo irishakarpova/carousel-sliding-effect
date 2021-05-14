@@ -110,10 +110,9 @@ export const useStyles = (
             position: "fixed",
             left: 0,
             top: 0,
-            overflow: 'scroll',
+            overflow: "scroll",
             zIndex: 2000,
-            inset: 0,
-        
+            inset: 0
         }
     }));
 };

@@ -87,10 +87,9 @@ const SlideShow: React.FC<AppStateValue> = (props) => {
     };
 
     useEffect(() => {
-        const body: HTMLBodyElement | null = document.querySelector('body');
-            body!.style.overflow = isOpenCurrentImg ? 'hidden' : 'auto';
-      }, [isOpenCurrentImg]);
-
+        const body: HTMLBodyElement | null = document.querySelector("body");
+        body!.style.overflow = isOpenCurrentImg ? "hidden" : "auto";
+    }, [isOpenCurrentImg]);
 
     const data = getImages();
 
